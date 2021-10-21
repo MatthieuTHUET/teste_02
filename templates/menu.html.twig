@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} VIEW SYMFONY {% endblock %}
+
+{% block body %}
+
+<h2> VIEW SYMFONY </h2>
+<hr>
+
+<ul> 
+    <h3> 
+        {#<li>  <a href="{{ path('view_index') }}"> Home </a> </li> #}   
+        <li>  <a href="{{ path('view_exo1') }}"> Exo1 </a> </li>
+        <li>  <a href="{{ path('view_exo2') }}"> Exo2 </a> </li>    
+        <li>  <a href="{{ path('view_exo3') }}"> Exo3 </a> </li>  
+        <li>  <a href="#"> Exo4 </a> </li>  
+        <li>  <a href="#"> Exo5 </a> </li>  
+        <li>  <a href="#"> Exo6 </a> </li>  
+    </h3>
+<hr>
+</ul>
+
+
+
+{% endblock %}

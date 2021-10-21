@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+
+<h1> LISTE DES ARTICLES </h1>
+
+ {% for article in articles %}
+    <tr>
+        <td>{{ article.id }}</td>
+        <td>{{ article.Title }}</td>
+        <td>{{ article.Contenu }}</td>
+    </tr>
+
+
+{% endfor %}
+
+{% endblock %}

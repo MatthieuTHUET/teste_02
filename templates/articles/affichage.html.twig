@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Articles{% endblock %}
+
+{% block body %}
+    <h1>Articles index</h1>
+<table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Contenu</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>{{ articles.Title }}</td>
+                <td>{{ articles.Contenu }}</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+{% endblock %}
