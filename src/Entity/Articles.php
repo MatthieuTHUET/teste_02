@@ -4,7 +4,7 @@ namespace App\Entity;
 
 use App\Repository\ArticlesRepository;
 use Doctrine\ORM\Mapping as ORM;
-
+use Faker
 /**
  * @ORM\Entity(repositoryClass=ArticlesRepository::class)
  */
